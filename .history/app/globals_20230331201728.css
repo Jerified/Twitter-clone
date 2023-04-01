@@ -3,13 +3,9 @@
 @tailwind utilities;
 
 body {
-  @apply bg-black h-full
+  @apply bg-zinc-900 h-full overflow-x-hidden
 }
 
 #__next {
-  @apply h-full bg-black
-}
-
-html {
   @apply h-full
 }
